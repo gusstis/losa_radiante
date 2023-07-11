@@ -18,7 +18,7 @@ const tableData: table[] = [
         price: 16458.23,
         change: 3.96,
         cap: 16828.25,
-        action: "Buy",
+        action: "No llega",
     },
     {
         index: 2,
@@ -27,7 +27,7 @@ const tableData: table[] = [
         price: 16458.23,
         change: 3.96,
         cap: 16828.80,
-        action: "Buy",
+        action: "Es cara",
     },
     {
         index: 3,
@@ -36,7 +36,7 @@ const tableData: table[] = [
         price: 16458.23,
         change: -3.96,
         cap: 16828.30,
-        action: "Sell",
+        action: "Nunca",
     },
     {
         index: 4,
@@ -45,7 +45,7 @@ const tableData: table[] = [
         price: 16458.23,
         change: -3.96,
         cap: 16828.42,
-        action: "Sell",
+        action: "No",
     },
 ]
 
@@ -59,11 +59,11 @@ const Table = () => {
                         <thead>
                             <tr className="text-white bg-darkblue rounded-lg">
                                 <th className="px-4 py-4 font-normal">#</th>
-                                <th className="px-4 py-4 text-start font-normal">NAME</th>
-                                <th className="px-4 py-4 font-normal">PRICE</th>
-                                <th className="px-4 py-4 font-normal">CHANGE 24H</th>
+                                <th className="px-4 py-4 text-start font-normal">EMPRESA</th>
+                                <th className="px-4 py-4 font-normal">COTIZACION</th>
+                                <th className="px-4 py-4 font-normal">DIFERENCIA</th>
                                 <th className="px-4 py-4 font-normal">MARKET CAP</th>
-                                <th className="px-4 py-4 font-normal">ACTION</th>
+                                <th className="px-4 py-4 font-normal">ES MEJOR?</th>
                             </tr>
                         </thead>
                         <tbody>

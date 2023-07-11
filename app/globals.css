@@ -8,10 +8,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #03050d;
+  background-color: #386604;
   /* background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
-  background-image: linear-gradient(90deg, rgba(189, 36, 223, 0.5) 0%, rgba(45, 106, 222, 0.5) 97.15%);
-  background-blend-mode: overlay;
+  background-image: linear-gradient(90deg, rgba(54, 87, 32, 0.5) 0%, rgba(110, 222, 45, 0.5) 97.15%);
+  background-blend-mode: overlay; 
 }
 
 html {
@@ -22,8 +22,8 @@ html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
-  background-color: #252525;
+  background-image: linear-gradient(90deg, #95be94 0%, #2D6ADE 97.15%);
+  background-color: #0d3470;
   background-blend-mode: overlay;
   opacity: 1.9;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
@@ -32,12 +32,12 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .navbutton {
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #24df2d 0%, #215ac5 97.15%);
   border-radius: 10px;
 }
 
 .navbutton:hover {
-  background: linear-gradient(90deg, #2D6ADE 0%, #BD24DF 97.15%);
+  background: linear-gradient(90deg, #215ac5 0%, #24df2d 97.15%);
 }
 
 .arrowOne {
@@ -131,7 +131,7 @@ html:not([data-scroll="0"]) .navbar {
 /* Work Section */
 
 .card-b {
-  background: #0C1B44;
+  background: #0e40cc;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   position: relative;
@@ -142,7 +142,7 @@ html:not([data-scroll="0"]) .navbar {
 .card-b:hover {
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
   transform: scale(1.05);
-  border: 1px solid #BD24DF;
+  border: 1px solid #34df24;
   height: 360px;
 }
 
@@ -155,7 +155,7 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .work-img-bg {
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #20e430 0%, #2D6ADE 97.15%);
   top: -51px;
   right: 40%;
 }
@@ -163,14 +163,14 @@ html:not([data-scroll="0"]) .navbar {
 /* Table Section */
 
 .table-b {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(124, 196, 196, 0.25);
   border-radius: 20px;
 }
 
 /* Feature Section */
 
 .feature-font {
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #69df24 0%, #2D6ADE 97.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -178,13 +178,13 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .gg {
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #24df34 0%, #2D6ADE 97.15%);
 }
 
 /* Simple Section */
 
 .simple-bg {
-  background: linear-gradient(90deg, rgba(189, 36, 223, 0.1) 0%, rgba(45, 106, 222, 0.1) 97.15%);
+  background: linear-gradient(90deg, rgba(30, 107, 75, 0.1) 0%, rgba(45, 106, 222, 0.1) 97.15%);
 }
 
 .simpleone {
@@ -315,7 +315,7 @@ html:not([data-scroll="0"]) .navbar {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #df4343;
   transform-origin: bottom right;
   transition: transform .25s ease-out;
 }
@@ -362,7 +362,7 @@ th:last-child {
 
 .radial-bgone {
   position: absolute;
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #24df5c 0%, #2D6ADE 97.15%);
   opacity: 0.5;
   filter: blur(392px);
   border-radius: 508.5px;
@@ -374,7 +374,7 @@ th:last-child {
 
 .radial-banner {
   position: absolute;
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #24df3d 0%, #2D6ADE 97.15%);
   opacity: 0.5;
   filter: blur(392px);
   border-radius: 508.5px;
@@ -387,7 +387,7 @@ th:last-child {
 
 .radial-bg {
   position: absolute;
-  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  background: linear-gradient(90deg, #24df4c 0%, #2D6ADE 97.15%);
   opacity: 1.5;
   filter: blur(392px);
   border-radius: 508.5px;
